@@ -10,6 +10,5 @@ namespace CodeWarsChallenge
     public class SheepCounter
     {
         public static int CountSheeps(bool[] sheeps) => sheeps.Where(e => e == true).Count();
-       
     }
 }
